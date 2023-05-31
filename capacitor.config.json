@@ -2,7 +2,7 @@
   "appId": "jp.co.asial.monaca",
   "appName": "capacitor-basic",
   "bundledWebRuntime": false,
-  "webDir": "dist",
+  "webDir": "www",
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 0

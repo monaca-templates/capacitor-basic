@@ -5,8 +5,8 @@ and comes with a very minimal shell for building an app.
 
 ### Running this example
 
-To run the provided example, you can use `npm start` command.
+To run the provided example, you can use `npm run dev` command.
 
 ```bash
-npm start
+npm run dev
 ```

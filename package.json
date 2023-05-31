@@ -8,9 +8,12 @@
     "mobile"
   ],
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "monaca:preview": "npm run dev & npm run watch",
+    "monaca:transpile": "npm run build",
+    "monaca:debug": "npm run watch",
+    "dev": "cross-env NODE_ENV=development vite",
+    "watch": "cross-env NODE_ENV=development vite build --watch",
+    "build": "cross-env NODE_ENV=production vite build"
   },
   "dependencies": {
     "@capacitor/core": "latest",
@@ -19,6 +22,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "latest",
+    "cross-env": "^7.0.3",
     "vite": "^2.9.13"
   },
   "author": "",

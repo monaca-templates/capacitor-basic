@@ -1,3 +1,5 @@
+# TESTING - DO NOT USE IT
+
 ## Created with Capacitor Create App
 
 This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),

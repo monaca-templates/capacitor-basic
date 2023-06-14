@@ -1,3 +1,7 @@
 {
-  "xcode_version": "13"
+  "framework_version": "3.5",
+  "xcode_version": "14.2.0",
+  "dSYM": false,
+  "cordova_android_platform": "12.0.0",
+  "cordova_ios_platform": "6.2.0"
 }

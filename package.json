@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "An Amazing Capacitor App",
   "main": "index.js",
+  "engines": {
+    "node": "~18.16.0",
+    "npm": "~9.5.0"
+  },
   "keywords": [
     "capacitor",
     "mobile"
@@ -22,6 +26,7 @@
     "@trapezedev/configure": "7.0.10"
   },
   "devDependencies": {
+    "@capacitor/assets": "^2.0.4",
     "@capacitor/cli": "5.0.4",
     "cross-env": "^7.0.3",
     "vite": "^2.9.13"

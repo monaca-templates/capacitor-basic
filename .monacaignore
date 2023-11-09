@@ -3,11 +3,11 @@
 !/.monaca/project_info.json
 /platforms
 # native
-ios/
-android/
+/ios
+/android
 # other
 .idea/
-node_modules/
+node_modules
 .vscode/
 *.map
 .DS_Store

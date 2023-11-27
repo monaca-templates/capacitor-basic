@@ -20,14 +20,16 @@
     "build": "cross-env NODE_ENV=production vite build"
   },
   "dependencies": {
-    "@capacitor/camera": "5.0.2",
-    "@capacitor/core": "5.0.4",
-    "@capacitor/splash-screen": "5.0.2",
-    "@trapezedev/configure": "7.0.10"
+    "@capacitor/camera": "5.0.7",
+    "@capacitor/core": "5.5.1",
+    "@capacitor/splash-screen": "5.0.6",
+    "@trapezedev/configure": "7.0.10",
+    "@capacitor/android": "5.5.1",
+    "@capacitor/ios": "5.5.1"
   },
   "devDependencies": {
     "@capacitor/assets": "^2.0.4",
-    "@capacitor/cli": "5.0.4",
+    "@capacitor/cli": "5.5.1",
     "cross-env": "^7.0.3",
     "vite": "^2.9.13"
   },

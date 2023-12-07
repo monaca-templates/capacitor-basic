@@ -1,7 +1,5 @@
 {
   "framework_version": "3.5",
   "xcode_version": "14.2.0",
-  "dSYM": false,
-  "capacitor_android_platform": "5.0.5",
-  "capacitor_ios_platform": "5.0.5"
+  "dSYM": false
 }

@@ -28,10 +28,10 @@
     "@capacitor/ios": "5.5.1"
   },
   "devDependencies": {
-    "@capacitor/assets": "^2.0.4",
+    "@capacitor/assets": "3.0.1",
     "@capacitor/cli": "5.5.1",
     "cross-env": "^7.0.3",
-    "vite": "^2.9.13"
+    "vite": "5.0.6"
   },
   "author": "",
   "license": "ISC"

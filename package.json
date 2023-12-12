@@ -16,11 +16,11 @@
     "monaca:preview": "yarn dev & yarn watch",
     "monaca:transpile": "yarn build",
     "monaca:debug": "yarn watch",
+    "monaca:trapeze-android": "trapeze run config.yaml -y --android-project android",
+    "monaca:trapeze-ios": "trapeze run config.yaml -y --ios-project ios/App",
     "dev": "cross-env NODE_ENV=development vite",
     "watch": "cross-env NODE_ENV=development vite build --watch",
-    "build": "cross-env NODE_ENV=production vite build",
-    "trapeze-android": "trapeze run config.yaml --android-project android",
-    "trapeze-ios": "trapeze run config.yaml --ios-project ios/App"
+    "build": "cross-env NODE_ENV=production vite build"
   },
   "dependencies": {
     "@capacitor/android": "5.5.1",

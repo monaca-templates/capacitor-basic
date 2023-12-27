@@ -103,7 +103,7 @@ window.customElements.define(
             return;
           }
 
-          image.src = photo.webPath;
+          image.src = photo.webPath.replace(window.location.href, ''); // Convert URL to relative path for Monaca debugger
         } catch (e) {
           console.warn('User cancelled', e);
         }

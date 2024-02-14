@@ -13,5 +13,6 @@ export default defineConfig({
   server: {
     host: HOST,
     port: 8080,
-  }
+  },
+  publicDir: '../public'
 });
